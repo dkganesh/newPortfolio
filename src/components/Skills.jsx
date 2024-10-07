@@ -29,7 +29,7 @@ const Skills = () => {
                     </motion.div>
                 )}
            </div>
-           {pop && (<div className="model">
+           {pop && (<div className="model lg:w-6/12 md:w-6/12 md:m-auto lg:m-auto">
                 <div className="overlay" onClick={open}>
                 </div>
                 <div className="model-content rounded-md p-3 "><p className='dk-model-p font-extrabold p-3 text-justify rounded-lg'>{x}</p></div>

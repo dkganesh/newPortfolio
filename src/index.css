@@ -133,8 +133,8 @@ body{
 .dk-profile-card{
   min-height: 30vh;
   max-height: 40vh;
-  border-bottom: 2px solid var(--chrome);
-  border-radius: 30%;
+  /* border-bottom: 2px solid var(--chrome);
+  border-radius: 30%; */
 }
 .dk-profile-pic{
   height: 150px;
@@ -175,6 +175,7 @@ transition: ease-in 0.2s;
   max-width: 100vw;
   margin: auto;
   margin-top: 1em;
+  border-color: var(--yellow2);
 }
 .dk-sec-header{
   font-size: 1.5em;
@@ -294,4 +295,7 @@ transition: ease-in 0.2s;
 .dk-prj-pic-div img:hover{
   scale: 1.2;
   transition: 0.3s;
+}
+.dk-contact-div button{
+  color: var(--black);
 }

@@ -23,20 +23,20 @@ const Projects = () => {
         </motion.div>
         {Prj.projects.map((prj,index)=>
           <motion.div variants={slideIn('left','spring',0.2*index,1)} key={index} className={`text-center p-3 mb-2 ${index==Prj.projects.length-1 ? "pb-[3.5em]":"pb-2"}`}>
-              <button className='dk-prj-btn font-semibold text-lg p-2 rounded-lg' value={index} onClick={open}>{prj.ptitle}</button>
+              <button className='dk-prj-btn font-semibold text-lg p-2 rounded-lg w-full' value={index} onClick={open}>{prj.ptitle}</button>
           </motion.div>
         )}
-        {pop && (<div className="model">
-                <div className="overlay" onClick={open}>
+        {pop && (<div className="model lg:w-6/12 md:w-6/12 md:m-auto lg:m-auto">
+                <div className="overlay " onClick={open}>
                 </div>
                 <div className="model-content rounded-md p-3 ">
                   <p className='dk-model-p font-extrabold p-3 text-justify rounded-lg'>{x.pdesc}<Link to={x.plink}> Web url</Link>
                   <span className="dk-prj-pic-div flex flex-wrap flex-row justify-center items-center">
-                    {x.pics.map((pic,i)=><img src={pic} alt="index" key={i} className='m-2 transition-'></img>)}                    
+                    {x.pics.map((pic,i)=><img src={pic} alt="index" key={i} className='m-2 rounded-xl'></img>)}                    
                   </span>
                   </p>
                   </div>
-                <button><IoMdArrowRoundBack className='dk-prj-back-btn ' onClick={open}/></button>
+                <button><IoMdArrowRoundBack className='dk-prj-back-btn' onClick={open}/></button>
                 
                 </div>)
         }

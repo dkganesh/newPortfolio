@@ -4,9 +4,9 @@ import { Link} from 'react-router-dom'
 export const Navbar = () => {
   return (
     <>
-        <div className="dk-navbar">
+        <div className="dk-navbar ">
            {nav.links.map((e,index)=>
-           <Link key={index} className='p-1 mx-2 capitalize' value={e.toString()} to={`/${e.toString()}`} onClick={(e)=>console.log(e.target.value)}>{e}</Link>)}
+           <Link key={index} className='p-1 mx-2 capitalize' value={e.toString()} to={`/${e.toString()}`}>{e}</Link>)}
         </div>
     </>
   )

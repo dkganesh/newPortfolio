@@ -29,7 +29,7 @@ const About = () => {
             </motion.div>
             <div className='dk-about-interest flex flex-wrap p-3 justify-center '>
                 {Aboutconst.interest.list.map((e,index)=>
-                <motion.p variants={textVariant(0.5)} className='text-center capitalize p-1 m-1 rounded-sm' key={index} >
+                <motion.p variants={textVariant(0.5)} className='text-center capitalize p-1 m-1 rounded-lg' key={index} >
                 {e}
                 </motion.p>)}
             </div>
