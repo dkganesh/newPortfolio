@@ -12,7 +12,7 @@ const About = () => {
             </motion.div>
             <motion.p
             variants={fadeIn('left', 'spring', 0.1, 1)}
-            className=" dk-about-dec p-3 m-2 text-center">
+            className=" dk-about-dec p-3 m-2 text-justify">
                 {Aboutconst.desc}
             </motion.p>
             <motion.div variants={textVariant()}>

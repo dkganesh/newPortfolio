@@ -34,7 +34,7 @@ export const profileObject={
 }
 export const Aboutconst={
     title:"About",
-    desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit suscipit earum animi harum esse consectetur, voluptate mollitia fugiat enim architecto deleniti ad iure cupiditate nemo explicabo, sunt consequuntur vero eveniet natus molestias? Eaque expedita nobis, laborum quidem perspiciatis labore doloribus ad fuga incidunt. Fuga enim odio reiciendis? Tenetur, voluptas tempore distinctio quae illum dicta excepturi.",
+    desc:"I’m Dhaanyaakumaar G S, an aspiring Software Engineer with a solid foundation in Java, Spring Boot, React.js and MySQL. I’m done my Bachelor’s in Electrical and Electronics Engineering at SVCE, Chennai, with experience in EV charging systems, full-stack web development and freelancing. Notable projects include a Hostel Portal for SVCE, web app using Spring Security and JWT, and an Integrated EV Charging System. I’m skilled in web development tools like Postman, Git, and Netlify, with a keen interest in Full stack web development, IoT, ethical hacking, and Home automation. My goal is to build impactful digital solutions that solve real-world problems.",
     edu:{
         title:"education",
         subsec:[
