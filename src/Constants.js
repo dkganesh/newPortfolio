@@ -34,7 +34,7 @@ export const profileObject={
 }
 export const Aboutconst={
     title:"About",
-    desc:"I’m Dhaanyaakumaar G S, an aspiring Software Engineer with a solid foundation in Java, Spring Boot, React.js and MySQL. I’m done my Bachelor’s in Electrical and Electronics Engineering at SVCE, Chennai, with experience in EV charging systems, full-stack web development and freelancing. Notable projects include a Hostel Portal for SVCE, web app using Spring Security and JWT, and an Integrated EV Charging System. I’m skilled in web development tools like Postman, Git, and Netlify, with a keen interest in Full stack web development, IoT, ethical hacking, and Home automation. My goal is to build impactful digital solutions that solve real-world problems.",
+    desc:"I’m Dhaanyaakumaar G S, an aspiring Software Engineer with a solid foundation in Java, Spring Boot, React.js and MySQL. I have done my Bachelor’s in Electrical and Electronics Engineering at SVCE, Chennai, with experience in EV charging systems, full-stack web development and freelancing. Notable projects include a Hostel Portal for SVCE, web app using Spring Security and JWT, and an Integrated EV Charging System. I’m skilled in web development tools like Postman, Git, and Netlify, with a keen interest in Full stack web development, IoT, ethical hacking, and Home automation. My goal is to build impactful digital solutions that solve real-world problems.",
     edu:{
         title:"education",
         subsec:[
@@ -71,7 +71,7 @@ export const Prj={
         {
             ptitle:"Hostel Portel",
             pdesc:"This full stack project was made with Java Spring Boot and React. I created a React app for front-end interfacing, which will have features like student login and staff login seperately, also these where managed by the admin side using a seperate admin login with DB conectivity. The backend will be a Spring Boot API interconnected with cross origin React app(front-end). More over i focus on introducing security hashing techiques to make the web application secure and robust.Since this project is in development stage I have not deployed the project completely.",
-            plink:"https://dkportal.netlify.app/",
+            plink:"https://svcehostel.netlify.app",
             pics:[host1,host2,host3]
         },
         {

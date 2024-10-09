@@ -30,7 +30,7 @@ export const Profilecard = () => {
                     <Link to={profileObject.insta} className='p-1 dk-profile-r-link'>
                     <FaInstagram className='dk-profile-links'/>
                     </Link>
-                    <Link to="https://dkportal.netlify.app/" className='p-1 dk-profile-r-link flex justify-center items-center'>
+                    <Link to="https://svcehostel.netlify.app" className='p-1 dk-profile-r-link flex justify-center items-center'>
                     <FaDiagramProject />
                     </Link>
                 </div>
